@@ -1,0 +1,28 @@
+{
+    "name": "zinguru/youtrackSDK",
+    "description": "SDK for Youtrack API",
+    "keywords": [
+        "php",
+        "sdk",
+        "Youtrack",
+        "API"
+    ],
+    "homepage": "https://github.com/zinguru/youtrackSDK",
+    "authors": [
+        {"name": "George Kiknadze", "email": "zinguru@gmail.com"}
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "ext-http": "*",
+        "doctrine/collections": "^1.6",
+        "codeception/codeception": "^4.1",
+        "codeception/module-asserts": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": { "zinguru\\YoutrackSDK\\": "."}
+    }
+}
